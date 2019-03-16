@@ -1,0 +1,15 @@
+.currency-options {
+    // width: 350px;
+    // height: 220px;
+    >div {
+        height: 100%;
+    }
+    .currency-grid {
+        .list-group-item {
+            width: 40px;
+            label {
+                font-size: 16px;
+            }
+        }
+    }
+}

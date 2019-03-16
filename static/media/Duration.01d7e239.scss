@@ -1,0 +1,32 @@
+.duration-options {
+    table {
+        margin: 0;
+        &,
+        th,
+        td {
+            border: 0 none;
+        }
+        td {
+            padding: 3px 5px;
+            &:nth-child(3),
+            &:nth-child(4) {
+                width: 60px;
+                input,
+                select {
+                    width: 60px;
+                    display: inline-block;
+                }
+            }
+            .input-sm {
+                padding-right: 0;
+                height: 27px;
+            }
+        }
+    }
+}
+
+.duration-options-modal {
+    .v-options-wrapper>div {
+        padding: 0;
+    }
+}

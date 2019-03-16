@@ -1,0 +1,15 @@
+.email-options {
+    min-height: 300px;
+    >div {
+        margin: 0;
+        padding: 0 10px;
+        >h4 {
+            display: block;
+            margin-top: 10px;
+        }
+        label {
+            font-weight: normal;
+            font-size: 13px;
+        }
+    }
+}
